@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './global.css';
-import App from './App';
+// import App from './App';
+// import Badge from '../src/components/Badge';
 import BadgeNew from './pages/BadgeNew';
 import * as serviceWorker from './serviceWorker';
-
-import Badge from '../src/components/Badge';
 
 ReactDOM.render(<BadgeNew />, document.getElementById('root'));
 
