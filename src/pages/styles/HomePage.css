@@ -1,0 +1,39 @@
+.container__home {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background: url('../../images/stars.svg'), #1B1B25;
+}
+
+.container__objects{
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+
+}
+
+.row-objects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.elementOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.elementOne h2 {
+color: whitesmoke;
+text-transform: uppercase;
+}
+
+.elementOne p {
+  color: whitesmoke;
+  }
+
+.elementTwo img {
+  width: 100%;
+}
