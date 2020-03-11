@@ -1,14 +1,6 @@
 import React, { Component } from 'react';
 
 class BadgeForm extends Component {
-    // state = {};
-
-    // handleChange = e => {
-    //   this.setState({
-    //     [e.target.name]: e.target.value,
-    //   });
-    // };
-
     handleClick = e => {
         console.log('Button was clicked');
     };
@@ -16,7 +8,6 @@ class BadgeForm extends Component {
     handleSubmit = e => {
         e.preventDefault();
         console.log('Form was submitted');
-        console.log(this.state);
     };
 
     render() {
